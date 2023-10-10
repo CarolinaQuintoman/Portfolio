@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Carolina Quintoman</span><br>from Argentina</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/userCAro.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I started my path in programming two years ago, and since then, my love affair with this fascinating field has continuously grown. There is always something new to discover and learn, and that is what motivates me to continue growing as a professional.
+                        My experience as a hockey player for many years taught me the importance of teamwork and generating strong bonds with my teammates. I have been lucky enough to be part of a team of 20 incredible friends that this sport gave me.
+                        Recently, I had the challenge of contributing to the Code Community project, where I was faced with learning Python from scratch and its Django framework. Dealing with daily challenges, keeping the team together, and making it fun was a wonderful experience that allowed me to grow as a developer.
+                        My primary programming languages are JavaScript, and I also have experience with Node.js, React, SQL, Postgres. I'm always open to learning and eager to take on new opportunities and exciting projects.
+                        Connect with me!
+                        I am always open to new opportunities and exciting projects.
+                        
+                        Thank you for visiting my profile!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web Development</span><br>Web app Development</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span>2021-2023</span><br>Web app Development</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Bootcamp - Digital House</li>
+                            <li><span>2023 Development</span><br> Bootcamp - HENRY</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/codecommunity.jpeg" alt="">
+                    <div class="layer">
+                        <h2>Code Community</h2>
+                        <p>Design and develop a Social Network App for programmers that included: searches, combined filtering, ordering,
+                            posting, communities, validations, bans, books section, premium payments.
+                            Group project, Back End and then Front End. Design, Create, Organize, Develop, Collaborate, Speak, Moderate,
+                            Negotiate, Propose.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/woofdog.jpeg" alt="">
+                    <div class="layer">
+                        <h2>Woof World</h2>
+                        <p>Design and develop a dog App that included: searches, combined filtering, ordering, creation and details of each
+                            dog.
+                            Individual project, Front End and Back End, Consume API. Design, Create, Organize.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Rick and Morty</h2>
+                        <p>Individual project, Front End and Back End, Consume API. Design, Create, Organize.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> quintoman.carolina@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +54 9 2944 816965</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Carolina Quintoman - CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Dev Alphaspace. Made with <i class="fas fa-heart"></i> by Dev Alphaspace</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
