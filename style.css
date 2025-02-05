@@ -377,6 +377,9 @@ nav .fas {
     display: none;
 }
 
+.reduced-height {
+    height: 510px
+}
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
     #header {
